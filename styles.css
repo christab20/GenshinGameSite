@@ -821,7 +821,7 @@ z-index:-1;
     padding: 25px 0;
     text-align: center;
 
-    background:#0b0c12);
+    background:#0b0c12;
     color: #e8c27d;
 
     border-top: 1px solid rgba(255, 210, 140, 0.3);
@@ -836,6 +836,7 @@ z-index:-1;
   .container, .navbar {   
     flex-direction: column;
   }
+
 
 
 
