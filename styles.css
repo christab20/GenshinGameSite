@@ -814,7 +814,14 @@ z-index:-1;
         font-size: 36px;
     }
 }
-
+body.characters-page{
+	min-height:100vh;
+	display: flex;
+	flex-direction: column;
+}
+body.characters-page main{
+	flex:1;
+}
 
 .site-footer {
     width: 100%;
@@ -836,6 +843,7 @@ z-index:-1;
   .container, .navbar {   
     flex-direction: column;
   }
+
 
 
 
