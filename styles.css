@@ -830,20 +830,13 @@ z-index:-1;
     margin-top:auto;
 
 }
-	.char-footer {
-		position:fixed;
-		bottom:0;
-		left:0;
-		right:0;
-	}
-.characters-main {
-		padding-bottom: 90px;
-	}
+	
 
 @media screen and (max-width: 700px) {
   .container, .navbar {   
     flex-direction: column;
   }
+
 
 
 
