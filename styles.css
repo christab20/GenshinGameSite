@@ -813,15 +813,7 @@ z-index:-1;
     .contact-hero-inner h1 {
         font-size: 36px;
     }
-}
-body.characters-page{
-	min-height:100vh;
-	display: flex;
-	flex-direction: column;
-}
-body.characters-page main{
-	flex:1;
-}
+
 
 .site-footer {
     width: 100%;
@@ -838,11 +830,21 @@ body.characters-page main{
     margin-top:auto;
 
 }
+	.char-footer {
+		position:fixed;
+		bottom:0;
+		left:0;
+		right:0;
+	}
+.characters-main {
+		padding-bottom: 90px;
+	}
 
 @media screen and (max-width: 700px) {
   .container, .navbar {   
     flex-direction: column;
   }
+
 
 
 
